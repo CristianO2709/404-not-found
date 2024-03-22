@@ -37,9 +37,13 @@ img{
     gap: 2rem;
 }
 
+.container-img-information img{
+    animation: move 2s linear infinite;
+}
+
 .main-tittle{
     font-family: "Space Mono", monospace;
-    font-size: 3rem;
+    font-size: 4.5rem;
     font-weight: 700;
     line-height: 1.5;
     color: #333333;
@@ -47,7 +51,7 @@ img{
 
 .information-paragraph{
     font-family: "Space Mono", monospace;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: 400;
     line-height: 2;
     color: #4F4F4F;
@@ -111,11 +115,11 @@ img{
     }
 
     .main-tittle{
-        font-size: 4rem;
+        font-size: 5.5rem;
     }
 
     .information-paragraph{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 
     .btn-back{
@@ -166,5 +170,19 @@ img{
 
     .footer div{
         margin: 0 0 2rem 0;
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
     }
 }
