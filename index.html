@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- metadatos -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="alvadev">
-    <meta name="description" content="page 404 not found">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="alvadev" />
+    <meta name="description" content="page 404 not found" />
     <!-- styles css -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
     <!-- favicon -->
-    <link rel="shortcut icon" href="/assets/images/devchallenges.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="/assets/images/devchallenges.png"
+      type="image/x-icon"
+    />
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>404 Not Found</title>
-</head>
-<body>
-    <header>
-        <p id="tittle-not-found">404 NOT FOUND</p>
+  </head>
+  <body>
+    <header class="header">
+      <p class="tittle-not-found container">404 NOT FOUND</p>
     </header>
-    <main>
-        <div class="div-img">
-            <img src="/assets/images/Scarecrow.png" alt="image scarecrow 404">
-        </div>
-        <div class="div-block">
-            <h1 id="main-tittle">I have bad news for you</h1>
-            <p id="information-paragraph">
-                The page you are looking for might be removed or is temporarily unavailable
-            </p>
-            <button id="btn-back">BACK TO HOMEPAGE</button>
-        </div>
+    <main class="container container-img-information">
+      <img src="/assets/images/Scarecrow.png" alt="image scarecrow 404" />
+      <div class="paragraph">
+        <h1 class="main-tittle">I have bad news for you</h1>
+        <p class="information-paragraph">
+          The page you are looking for might be removed or is temporarily
+          unavailable
+        </p>
+        <div class="btn-back">BACK TO HOMEPAGE</div>
+      </div>
     </main>
     <footer class="footer">
-        <p id="footer-paragraph">created by <u>alvadev</u> devChallenges.io</p>
+      <p class="footer-paragraph container">
+        created by <span> alvadev </span> devChallenges.io
+      </p>
     </footer>
-</body>
+  </body>
 </html>
